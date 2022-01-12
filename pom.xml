@@ -27,6 +27,14 @@
             <version>3.17.0</version>
         </dependency>
     </dependencies>
+         
+          <distributionManagement>
+    <repository>
+      <id>nxrm</id>
+      <name>Test Project Site</name>
+      <url>https://nxrm-araval.sonatypedev.com:444/repository/test-maven-hosted/</url>
+    </repository>
+  </distributionManagement>
 
     <!-- This blob of configuration tells Maven to make the jar executable. You can run it with:
     mvn clean package
