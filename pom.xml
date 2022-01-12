@@ -18,6 +18,14 @@
         <!-- Tell Maven to treat all source files as UTF-8 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+         
+         <distributionManagement>
+    <repository>
+      <id>nxrm</id>
+      <name>Test Project Site</name>
+      <url>https://nxrm-araval.sonatypedev.com:444/repository/test-maven-hosted/</url>
+    </repository>
+  </distributionManagement>
 
     <dependencies>
         <!-- Here are all your dependencies. Currently only one. These are automatically downloaded from https://mvnrepository.com/ -->
